@@ -1,0 +1,115 @@
+#warranty_top_DT{
+    background-color: var(--color-green-green-flat, #002504);
+    position: absolute;
+    display:none;
+    align-items: end;
+    top: 0px;
+    height: 180px;
+    width: 120px;
+    padding: 10px;
+    visibility: hidden;
+}
+
+#warranty_bottom_DT{
+    background-color: var(--color-green-green-flat, #002504);
+    position: absolute;
+    display:none;
+    height: 50px;
+    width: 120px;
+    bottom: 26px;
+    visibility: hidden;
+}
+
+#warranty_top_MB{
+    background-color: var(--color-green-green-flat, #002504);
+    position: absolute;
+    display:none;
+    align-items: end;
+    top: 0px;
+    height: 80px;
+    width: 55px;
+    visibility: hidden;
+}
+
+#warranty_bottom_MB{
+    background-color: var(--color-green-green-flat, #002504);
+    position: absolute;
+    display:none;
+    height: 55px;
+    width: 55px;
+    bottom: 0px;
+    visibility: hidden;
+}
+
+#exclusive_DT{
+    background-color: var(--color-teal-teal-major, #00E1AD);
+    position: absolute;
+    display:none;
+    align-items: end;
+    top: 0px;
+    height: 150px;
+    width: 120px;
+    padding: 10px;
+    visibility: hidden;
+}
+
+#exclusive_MB{
+    background-color: var(--color-teal-teal-major, #00E1AD);
+    position: absolute;
+    display:none;
+    align-items: end;
+    top: 0px;
+    height: 70px;
+    width: 55px;
+    padding: 5px;
+    visibility: hidden;
+}
+
+.badgeZoom{
+    visibility: hidden;
+}
+
+/* Desktop */
+@media (min-width: 767px){
+    #warranty{
+        padding: 36px;
+    }
+
+    #warranty_top_DT{
+        display:flex !important;
+    }
+
+    #warranty_bottom_DT{
+        display:flex !important;
+    }
+
+    #exclusive_DT{
+        display:flex !important;
+    }
+}
+
+/* Desktop */
+@media (min-width:767px) and (max-width:1440px) {
+    #exclusive_DT{
+    margin-left: -10px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px){
+    #warranty{
+        padding: 0px;
+    }
+
+    #warranty_top_MB{
+        display:flex !important;
+    }
+
+    #warranty_bottom_MB{
+        display:flex !important;
+    }
+
+    #exclusive_MB{
+        display:flex !important;
+    }
+}
